@@ -1,3 +1,6 @@
+<?php
+	require 'app/models/model_db.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,10 +11,22 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<?php
-		include 'app/views/'.$content_view;
-	?>
+	<div class="wrapper">
+		<header class="header">
+			<p class="header_title">TASK LIST</p>
+		</header>
 
+		<main class="main">
+			<?php
+				include 'app/views/'.$content_view;
+			?>
+		</main>
+
+		<footer class="footer">
+			<p class="footer_text">TASK LIST</p>
+			<p class="footer_text">&copy 2023</p>
+		</footer>
+	</div>
 	<script src="js/script.js"></script>
 </body>
 </html>
