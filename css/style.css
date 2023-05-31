@@ -182,6 +182,9 @@ html, body {
 	gap: 15px;
 	justify-content: space-evenly;
 }
+.tasklist_add_block > form {
+	width: 100%;
+}
 
 .add_text {
 	max-width: 100%;
@@ -252,6 +255,10 @@ html, body {
 .tasklist_item_btn {
 	display: flex;
 	gap: 15px;
+}
+
+.tasklist_item_btn > form{
+	width: 100%;
 }
 
 .tasklist_status_img {

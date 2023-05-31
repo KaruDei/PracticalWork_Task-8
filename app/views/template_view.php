@@ -1,6 +1,3 @@
-<?php
-	require 'app/models/model_db.php';
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -1,6 +1,6 @@
 <div class="container_auth">
 	<p class="container_title">AUTHORIZATION</p>
-	<form action="controllers/auth.php" method="POST" class="auth_form">
+	<form action="/authorization" method="POST" class="auth_form">
 		<div class="form_item">
 			<p class="form_text">Email</p>
 			<input type="text" name="email" placeholder="email@mail.ru">
